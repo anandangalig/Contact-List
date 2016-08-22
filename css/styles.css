@@ -1,21 +1,12 @@
-.top {
-  background-color: #6193c8;
-  height: 40%;
-  width: auto;
-  text-align: center;
-  border-radius: 5px;
-}
-
-.bottom {
-  border-radius: 5px;
-  background-color: #eac14f;
-  height: auto;
-  width: auto;
-}
-
-img {
+#show-contact {
   display: none;
-  float: left;
-  padding-top: 0;
-  border-radius: 25px;
+}
+
+.contact {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.contact:hover {
+  text-decoration: underline;
 }
